@@ -3,7 +3,7 @@
 body {
     background-color: #16161a;
     color: #fffffe;
-    font-family: 'Popins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     padding: 0;
     margin: 0;
@@ -14,7 +14,8 @@ body {
 }
 
 .cabeca{
-    min-width: 500px;
+    border: 2px solid red;
+    width: 100%;
     margin: 20vh 0;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,8 @@ body {
 .n1{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .n1 img{
@@ -33,8 +36,17 @@ body {
 }
 
 .cabeca h1, p, i{
-    margin: 2px;
+    margin: 0;
     padding: 0;
+}
+
+.cabeca h1{
+    font-size: 50px;
+}
+
+.cabeca p, i{
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .lang{
